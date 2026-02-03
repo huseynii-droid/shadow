@@ -1,0 +1,13 @@
+int[] numbers = { 1, 2, 3, 4, 5 };
+int n = 10;
+bool netice = false;
+
+for (int i = 0; i < numbers.Length; i++)
+{
+    if (n > numbers[i])
+    {
+        netice = true;
+        break;
+    }
+}
+Console.WriteLine(netice);
