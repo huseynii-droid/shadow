@@ -1,0 +1,14 @@
+
+string[] sozler = { "alma", "armud", "banan", "gilas", "heyva", "nar", "portağal", "tut" };
+string axtarilan = "nar";
+bool tapildi = false;
+
+for (int i = 0; i < sozler.Length; i++)
+{
+    if (sozler[i] == axtarilan)
+    { 
+        System.Console.WriteLine("Tapıldı: " + sozler[i]);
+        tapildi = true;
+        break;
+    }
+}
