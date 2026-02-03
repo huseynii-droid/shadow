@@ -1,0 +1,12 @@
+int[] nums = { 1, 2, 3, 4, 5 };
+int enboyuk = nums[0];
+
+for (int i = 1; i < nums.Length; i++)
+{
+    if (nums[i] > enboyuk)
+    {
+        enboyuk = nums[i];
+    }
+}
+Console.WriteLine("En büyük sayı: " + enboyuk);
+
